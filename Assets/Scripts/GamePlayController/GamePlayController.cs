@@ -33,7 +33,9 @@ public class GamePlayController : MonoBehaviour {
 	}
 
 	public void end_Event() {
+
 		Debug.Log("충돌했습니다.");
+		
 	}
 
 }

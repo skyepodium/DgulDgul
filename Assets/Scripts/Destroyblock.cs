@@ -4,17 +4,10 @@ using UnityEngine;
 
 public class Destroyblock : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	public void OnMouseDown() {
+
+		Destroy(this.gameObject);
+
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-	public void OnMouseDown() {
-		Destroy(this.gameObject);
-	}
 }
