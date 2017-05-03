@@ -12,11 +12,13 @@ public class GameManager : MonoBehaviour {
 	private GameData data;
 	//아래 만든 클래스 변수를 담는다.
 
-	public int currentLevel;
+	public int currentLevel = -1;
 	//현재 레벨이 어디인지를 지시한다.
 
 	public int currentScore;
 	//현재 점수를 추적한다. 
+
+	public int currentLives;
 
 	public bool isGameStartedFirstTime;
 
