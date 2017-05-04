@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour {
 	public int selectedPlayer;
 	//public int selectedWeapon;
 	public int coins;
+	
 	public int highScore;
 
 	public bool[] players;

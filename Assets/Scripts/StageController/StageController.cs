@@ -178,6 +178,7 @@ public class StageController : MonoBehaviour {
 
 		}
 
+		GamePlayController.instance.isGameStartedFromLevelMenu = true;
 		SceneManager.LoadScene(level);
 	}
 
